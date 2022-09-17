@@ -1,0 +1,38 @@
+h1{
+    display: block;
+    text-align: center;
+    background-image: url(https://t3.ftcdn.net/jpg/02/90/46/84/360_F_290468474_6yJ9eBPW2wevarR9cbXN87TCFJDVVuAR.jpg);
+    border-radius: 10px;
+}
+body{
+    background-image: url(https://cdn.wallpapersafari.com/60/62/Xf1tNx.jpg);
+}
+.flex-container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    text-align: center;
+    margin: 50px 20px 10px 20px;
+    width: 300px;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+}
+.text{
+    float: left;
+    display: inline-block;
+}
+.date{
+    float: right;
+    display: inline-block;
+    
+    
+}
+.img{
+    height: 200px;
+    width: 300px; 
+    object-fit: fit; 
+}
